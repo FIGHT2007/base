@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.card{
+    background-color: blanchedalmond;
+    
+    height: 500px;
+    padding: 50px 200px;
+    display: flex;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+}
+
+.card .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 60px;
+}
+.card .left, .card .right{
+    width: 50%;
+}
+.card .right .img{
+    width: 550px;
+    height: 350px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card .line{
+    width: 100%;
+    background-color: black;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
