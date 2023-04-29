@@ -29,7 +29,7 @@
 .card .right .img{
     width: 550px;
     height: 350px;
-    background-color: aqua;
+    background-color: rgb(0, 255, 200);
     border-radius: 10px;
 }
 .content{
@@ -44,3 +44,14 @@
     left: 0;
     bottom: 0;
 }
+.card .title{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+}
+/* .card .desc{
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+} */
+
